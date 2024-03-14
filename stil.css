@@ -1,0 +1,177 @@
+body{
+    color: #fff;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    width: 93%;
+    height: 100px;
+    border: 5px solid blue;
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 12px;
+    padding: 10px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 50px;
+}
+.row:hover{
+    transition: 0.5s;
+    border: 5px dashed red;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    width: 600px;
+    letter-spacing: 5px;
+}
+.card1{
+    width: 60px;
+    height: 80px;
+    border-radius: 7px;
+    border: 2px solid green;
+}
+.card2{
+    width: 60px;
+    height: 80px;
+    border-radius: 7px;
+    border: 2px solid blueviolet;
+}
+.card3{
+    width: 60px;
+    height: 80px;
+    border-radius: 7px;
+    border: 2px solid orangered;
+}
+
+.card1img{
+    width: 50px;
+    height: 55%;
+    background-image: url('https://openshop.uz/public/storage/uploads/products/photos/202210/LAeHdDTNTM9Ao4rMLczeZGQMJRrcvdrkNPtEebcn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.card2img{
+    width: 50px;
+    height: 55%;
+    background-image: url('https://notebook.uz/wa-data/public/shop/products/03/24/2403/images/7117/7117.970.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.card3img{
+    width: 50px;
+    height: 55%;
+    background-image: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWULWX?ver=ef7f');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.cardlar1{
+    display: flex;
+    gap: 50px;
+}
+.cardlar2{
+    display: flex;
+    gap: 50px;
+}
+.cardlar3{
+    display: flex;
+    gap: 50px;
+}
+.card1 p{
+    width: 60px;
+    font-size: 8px;
+    text-align: center;
+}
+.card2 p{
+    width: 60px;
+    font-size: 8px;
+    text-align: center;
+}
+.card3 p{
+    width: 60px;
+    font-size: 8px;
+    text-align: center;
+}
+#buy{
+    width: 50px;
+    height: 10px;
+    font-size: 5px;
+    position: relative;
+    top: -12px;
+    left: 3px;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.content{
+    margin: 100px auto;
+    padding: 100px;
+    background: linear-gradient(to top left, red, orange);
+    max-width: 600px;
+    border-radius: 20px;
+    border: 7px blue double;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content input{
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 3px blue solid;
+}
+.content input:focus{
+    transition: 0.03s;
+    outline: 3px yellow dashed;
+    border: 5px green double;
+}
+.content button{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    border: 7px solid transparent;
+    border-top-color: green;
+    border-left-color: yellow;
+    border-bottom-color: blue;
+    border-right-color: blueviolet;
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(red, blue);
+}
